@@ -1,0 +1,47 @@
+[debug] [2021-07-15T16:36:56.465Z] ----------------------------------------------------------------------
+[debug] [2021-07-15T16:36:56.466Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2021-07-15T16:36:56.467Z] CLI Version:   9.16.0
+[debug] [2021-07-15T16:36:56.467Z] Platform:      darwin
+[debug] [2021-07-15T16:36:56.467Z] Node Version:  v14.16.0
+[debug] [2021-07-15T16:36:56.469Z] Time:          Thu Jul 15 2021 12:36:56 GMT-0400 (Eastern Daylight Time)
+[debug] [2021-07-15T16:36:56.469Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-15T16:36:56.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-15T16:36:56.516Z] > authorizing via signed-in user (michellerchute@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/michelle/Desktop/Netflix_Clone/Netflix_Clone/netflixclone/client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using netflixclone-bb67e. 
+[debug] [2021-07-15T16:36:56.521Z] > refreshing access token with scopes: []
+[debug] [2021-07-15T16:36:56.521Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-15T16:36:56.661Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 15 Jul 2021 16:36:56 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-15T16:36:56.706Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflixclone-bb67e [none]
+[debug] [2021-07-15T16:36:56.900Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflixclone-bb67e 200
+[debug] [2021-07-15T16:36:56.900Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflixclone-bb67e {"projectId":"netflixclone-bb67e","projectNumber":"916431574894","displayName":"NetflixClone","name":"projects/netflixclone-bb67e","resources":{"hostingSite":"netflixclone-bb67e","realtimeDatabaseInstance":"netflixclone-bb67e-default-rtdb"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
